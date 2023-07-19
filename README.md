@@ -34,3 +34,15 @@
 // Banner Ads
 Facebook.showBanner(findViewById(R.id.banner_container), this);
 ```
+
+
+## INTERSTITIAL Ads
+
+### Java
+```
+// Interstitial Ads
+Facebook.loadInter(MainActivity.this);
+
+// On Create
+Facebook.showInter();
+```
